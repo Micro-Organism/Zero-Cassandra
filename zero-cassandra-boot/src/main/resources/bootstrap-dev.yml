@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: zero-cassandra-boot
+    cassandra:
+        contact-points: 127.0.0.1
+        port: 9042
+        keyspace-name: test_keyspace
+        schema-action: create_if_not_exists
